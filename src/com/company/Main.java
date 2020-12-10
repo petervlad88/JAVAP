@@ -15,7 +15,7 @@ public class Main {
         byte myByte2=9/3;
         System.out.println(myByte2);
 
-       byte ec1=-5 + 8 * 6;
+        byte ec1=-5 + 8 * 6;
         System.out.println(ec1);
 
         byte ec2=(55+9) % 9;
@@ -26,6 +26,8 @@ public class Main {
 
         float ec4=5 + 15 / 3 * 2 - 8 % 3;
         System.out.println(ec4);
+
+
 
 
 
