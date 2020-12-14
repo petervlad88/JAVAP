@@ -67,7 +67,9 @@ public class Lab2 {
     }
     static int modulo(int firstNumber,int secondNumber){
         return (firstNumber%secondNumber);
+
     }
+
 
 
 
