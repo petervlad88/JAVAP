@@ -38,6 +38,7 @@ public class Lab2 {
     }
     static float divide(float firstNumber,float secondNumber){
         return(firstNumber/secondNumber);
+
     }
     static int minus(int firstNumber,int secondNumber){
         return(firstNumber-secondNumber);
