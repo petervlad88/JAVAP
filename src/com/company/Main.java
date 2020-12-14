@@ -60,9 +60,7 @@ public class Main {
     static float main5 (float number1,float number2,float number3,float number4 ) {
         return (number1 + number2 * number3 / number4);
     }
-    static float main6 (float number1,float number2,float number3,float number4 ,float number5) {
-        return (number1 + number2 / number3 * number4 % number5);
-    }
+
 
 
 }
