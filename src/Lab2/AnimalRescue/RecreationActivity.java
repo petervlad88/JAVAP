@@ -2,7 +2,7 @@ package Lab2.AnimalRescue;
 
 public class RecreationActivity {
 
-    private String name="Running";
+    private String name;
 
 
 
