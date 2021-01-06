@@ -32,6 +32,19 @@ public class Lab4 {
 
         //Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 
+        logic.myMethod(1,100);
+
+        //Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
+
+        logic.myMethod2(1,100);
+
+        //Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar.
+        // Metoda sa adune toate numerele pana la 100, pornind de la numarul primit ca si parametru, iar la final sa returneze rezultatul.
+        // Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+
+
+
+
 
 
 
