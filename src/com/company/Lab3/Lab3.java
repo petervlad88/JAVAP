@@ -72,6 +72,9 @@ public class Lab3 {
 
         System.out.println(logic.bigNumber(3,9,15));
 
+        Math myMath = new Math();
+
+        System.out.println(myMath.minus(6,2));
 
 
 

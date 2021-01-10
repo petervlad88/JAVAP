@@ -28,6 +28,8 @@ public class AppMain {
         myCat.setFavActivity("running");
         System.out.println(myCat.getFavActivity());
 
+        myCat.eat();
+
 
 
 
@@ -82,6 +84,14 @@ public class AppMain {
 
         myPersianCat.setAge(4);
         System.out.println(myPersianCat.getAge());
+
+
+        Animal myAnimal = new Animal();
+
+        myAnimal.eat();
+        myAnimal.run();
+
+
 
 
 

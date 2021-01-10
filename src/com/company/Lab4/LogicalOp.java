@@ -56,11 +56,6 @@ public class LogicalOp {
         return i;
     }
 
-
-
-
-
-
 }
 
 
