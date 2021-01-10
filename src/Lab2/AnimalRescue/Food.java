@@ -36,4 +36,24 @@ public class Food {
     public void setStock(int stock){
         this.stock=stock;
     }
+
+    public void smell(){
+        System.out.println("smells");
+    }
+
+    public void taste(){
+        System.out.println("taste");
+    }
+
+    public void feed(){
+        System.out.println("feeds");
+    }
+
+
+
+
+
+
+
+
 }

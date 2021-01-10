@@ -32,38 +32,60 @@ public class AppMain {
 
 
 
-
         Adopter myAdopter= new Adopter();
+
+        myAdopter.setAvailableAmount(200);
         System.out.println(myAdopter.getAvailableAmount());
+
         myAdopter.setName("Vlad");
         System.out.println(myAdopter.getName());
+
         myAdopter.setNationality("Roman");
         System.out.println(myAdopter.getNationality());
-        System.out.println(myAdopter.getAvailableAmount());
+
+        myAdopter.setAge(30);
         System.out.println(myAdopter.getAge());
 
 
         AnimalFood myAnimalFood= new AnimalFood();
-        System.out.println(myAnimalFood.getFoodName());
+
+
         myAnimalFood.setFoodName("Royal Canin");
         System.out.println(myAnimalFood.getFoodName());
-        myAnimalFood.getQuantityInKg();
+
+        myAnimalFood.setQuantityInKg(2.5);
         System.out.println(myAnimalFood.getQuantityInKg());
 
 
         RecreationActivity myRecActivity=new RecreationActivity();
+
+        myRecActivity.setName("runnning");
         System.out.println(myRecActivity.getName());
 
 
         Vet myVet=new Vet();
         myVet.setName("Viorel");
         System.out.println(myVet.getName());
+
+        myVet.setSpecialization("Doctor");
         System.out.println(myVet.getSpecialization());
 
         Food myFood=new Food();
 
         myFood.setFoodName("Royal Canin");
         System.out.println(myFood.getFoodName());
+
+        Persian myPersianCat = new Persian();
+
+        myPersianCat.setName("Zora");
+        System.out.println(myPersianCat.getName());
+
+        myPersianCat.setAge(4);
+        System.out.println(myPersianCat.getAge());
+
+
+
+
 
 
     }

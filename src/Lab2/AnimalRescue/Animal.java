@@ -71,4 +71,33 @@ public class Animal {
         this.favActivity=favActivity;
     }
 
+    public void eat(){
+        System.out.println("eating");
+    }
+
+    public void sleep(){
+         System.out.println("ZZZzzzZZzz");
+    }
+
+    public void run(){
+        System.out.println("running");
+    }
+
+    public void play(){
+        System.out.println("playing ");
+    }
+
+    public void hunt(){
+        System.out.println("hunting");
+    }
+
+    public void scratch(){
+        System.out.println(("scratching"));
+    }
+
+
+
+
+
+
 }

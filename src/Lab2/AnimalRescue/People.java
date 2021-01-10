@@ -43,6 +43,30 @@ public class People {
 
     }
 
+    public void sleep(){
+        System.out.println("sleeping");
+    }
+
+    public void work(){
+        System.out.println("working ");
+    }
+
+    public void eat(){
+        System.out.println("food");
+    }
+
+    public void run(){
+        System.out.println("running");
+    }
+
+    public void speaks(){
+        System.out.println("speaking");
+    }
+
+    public void wash(){
+        System.out.println("shower");
+    }
+
 
 
 
