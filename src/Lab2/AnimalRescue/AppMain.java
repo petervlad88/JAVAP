@@ -87,11 +87,8 @@ public class AppMain {
 
         myPersianCat.eat();
         myPersianCat.sleep();
+        myPersianCat.scratch();
 
-        Women myWomen = new Women();
-
-        myWomen.wash();
-        myWomen.sleep();
 
         RoyalCaninFood myRoyalCanin = new RoyalCaninFood();
 

@@ -3,7 +3,7 @@ package Lab2.AnimalRescue;
 public class Vet extends People {
 
     public void sleep() {
-        System.out.println("sleeps during the night");
+        System.out.println("sleeps during the night.");
     }
 
     public void work() {
