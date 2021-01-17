@@ -11,7 +11,7 @@ public class RoyalCaninFood extends AnimalFood{
     }
 
     public void feed(){
-        System.out.println("feeds cats and dogs");
+        System.out.println("feeds cats and dogs.");
     }
 
 }

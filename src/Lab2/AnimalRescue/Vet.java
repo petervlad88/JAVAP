@@ -22,9 +22,7 @@ public class Vet extends People {
         System.out.println("speaks louder");
     }
 
-    public void wash(){
-        System.out.println("washing in open space");
-    }
+
 
 
 }

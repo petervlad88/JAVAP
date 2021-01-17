@@ -58,7 +58,6 @@ public abstract class People {
     public abstract void speaks();
 
 
-    public abstract void wash();
 
     }
 

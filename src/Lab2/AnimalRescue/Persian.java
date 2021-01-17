@@ -7,9 +7,7 @@ public class Persian extends Cat{
         System.out.println("scratchin sofa");
     }
 
-    public void play(){
-        System.out.println("playing with own tail. ");
-    }
+
     public void sleep(){
         System.out.println("sleeping all day ");
     }

@@ -43,7 +43,6 @@ public abstract class Food {
     public abstract void taste();
 
 
-    public abstract void feed();
 
     }
 

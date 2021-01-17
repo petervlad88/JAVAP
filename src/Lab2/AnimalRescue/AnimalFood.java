@@ -5,7 +5,7 @@ public abstract class AnimalFood extends Food {
 
 
     public void feed(){
-        System.out.println("feeds animals.");
+        System.out.println("feeds animals");
     }
 
 }

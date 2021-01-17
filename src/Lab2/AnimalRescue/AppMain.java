@@ -94,10 +94,12 @@ public class AppMain {
 
         myRoyalCanin.smell();
         myRoyalCanin.feed();
+        myRoyalCanin.taste();
 
         Tenis myTenis= new Tenis();
 
-        myTenis.running();
+        myTenis.runningg();
+
 
 
 
