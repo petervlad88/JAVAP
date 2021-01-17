@@ -71,7 +71,7 @@ public abstract class Animal {
         this.favActivity=favActivity;
     }
 
-    public abstract void eat();
+    public abstract void eatt();
 
 
     public abstract void sleep();

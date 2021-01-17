@@ -1,8 +1,8 @@
 package Lab2.AnimalRescue;
 
-public abstract class Adopter extends People {
+public  class Adopter extends People {
 
-    public void sleep() {
+    public void sleep1() {
         System.out.println("sleeps during the day ");
     }
 
@@ -17,9 +17,7 @@ public abstract class Adopter extends People {
         public void speaks () {
             System.out.println("speak rare and slow");
         }
-    public void wash() {
-        System.out.println("washing only at home");
-    }
+
 
     public void work() {
         System.out.println("work during the day");

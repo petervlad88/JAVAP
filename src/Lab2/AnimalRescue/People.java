@@ -43,7 +43,7 @@ public abstract class People {
 
     }
 
-    public abstract void sleep();
+    public abstract void sleep1();
 
 
     public abstract void work();

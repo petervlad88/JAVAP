@@ -40,7 +40,7 @@ public abstract class Food {
     public abstract void smell();
 
 
-    public abstract void taste();
+    public abstract void taste1();
 
 
 

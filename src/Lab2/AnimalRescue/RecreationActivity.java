@@ -13,7 +13,7 @@ public abstract class RecreationActivity {
         this.name=name;
     }
 
-    public abstract void runningg();
+    public abstract void running();
 
 
 

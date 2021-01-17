@@ -4,7 +4,7 @@ public class Persian extends Cat{
 
 
     public void scratch(){
-        System.out.println("scratchin sofa");
+        System.out.println("scratchin sofa.");
     }
 
 

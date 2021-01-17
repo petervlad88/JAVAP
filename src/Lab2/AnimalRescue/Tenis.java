@@ -2,7 +2,7 @@ package Lab2.AnimalRescue;
 
 public class Tenis extends RecreationActivity{
 
-    public void runningg(){
+    public void running(){
         System.out.println("running on the pitch.");
     }
 }

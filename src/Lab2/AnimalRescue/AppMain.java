@@ -85,7 +85,7 @@ public class AppMain {
         myPersianCat.setAge(4);
         System.out.println(myPersianCat.getAge());
 
-        myPersianCat.eat();
+        myPersianCat.eatt();
         myPersianCat.sleep();
         myPersianCat.scratch();
 
@@ -94,11 +94,11 @@ public class AppMain {
 
         myRoyalCanin.smell();
         myRoyalCanin.feed();
-        myRoyalCanin.taste();
+        myRoyalCanin.taste1();
 
         Tenis myTenis= new Tenis();
 
-        myTenis.runningg();
+        myTenis.running();
 
 
 

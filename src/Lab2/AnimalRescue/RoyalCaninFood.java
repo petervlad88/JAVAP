@@ -6,7 +6,7 @@ public class RoyalCaninFood extends AnimalFood{
         System.out.println("smells in different ways");
     }
 
-    public void taste(){
+    public void taste1(){
         System.out.println("chicken taste. ");
     }
 

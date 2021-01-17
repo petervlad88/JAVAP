@@ -5,8 +5,8 @@ public abstract class Cat extends Animal {
     public void meow(){
         System.out.println("miiiiauuu");
     }
-    public void eat() {
-        System.out.println("eating catfood ");
+    public void eatt() {
+        System.out.println("eating catfood .");
 
     }
 
