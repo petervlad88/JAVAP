@@ -1,6 +1,6 @@
 package Lab2.AnimalRescue;
 
-public class Food {
+public abstract class Food {
     private String foodName;
     private double priceInRon;
     private double quantityInKg;
@@ -37,17 +37,16 @@ public class Food {
         this.stock=stock;
     }
 
-    public void smell(){
-        System.out.println("smells");
+    public abstract void smell();
+
+
+    public abstract void taste();
+
+
+    public abstract void feed();
+
     }
 
-    public void taste(){
-        System.out.println("taste");
-    }
-
-    public void feed(){
-        System.out.println("feeds");
-    }
 
 
 
@@ -56,4 +55,3 @@ public class Food {
 
 
 
-}

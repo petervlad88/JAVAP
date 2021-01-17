@@ -1,6 +1,6 @@
 package Lab2.AnimalRescue;
 
-public class AnimalFood extends Food {
+public abstract class AnimalFood extends Food {
 
 
     public void smell(){

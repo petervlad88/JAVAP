@@ -1,6 +1,6 @@
 package Lab2.AnimalRescue;
 
-public class People {
+public abstract class People {
     private String name;
     private String nationality;
     private int availableAmount;
@@ -43,31 +43,25 @@ public class People {
 
     }
 
-    public void sleep(){
-        System.out.println("sleeping");
-    }
+    public abstract void sleep();
 
-    public void work(){
-        System.out.println("working ");
-    }
 
-    public void eat(){
-        System.out.println("food");
-    }
+    public abstract void work();
 
-    public void run(){
-        System.out.println("running");
-    }
 
-    public void speaks(){
-        System.out.println("speaking");
-    }
+    public abstract void eat();
 
-    public void wash(){
-        System.out.println("shower");
+
+    public abstract void run();
+
+
+    public abstract void speaks();
+
+
+    public abstract void wash();
+
     }
 
 
 
 
-}

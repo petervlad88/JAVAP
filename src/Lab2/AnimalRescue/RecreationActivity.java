@@ -1,6 +1,6 @@
 package Lab2.AnimalRescue;
 
-public class RecreationActivity {
+public abstract class RecreationActivity {
 
     private String name;
 
@@ -12,6 +12,8 @@ public class RecreationActivity {
     public void setName(String name){
         this.name=name;
     }
+
+    public abstract void running();
 
 
 }

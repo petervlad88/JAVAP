@@ -6,10 +6,11 @@ public class Lab3 {
 
 
         LogicalOp logic = new LogicalOp();
-        int x = 2;
-        int y = 2;
 
-        //        System.out.println(logic.compareNumbers(x, y));
+
+
+        System.out.println(logic.compareNumbers(4,6));
+
 
 
 //        Given a text input, if it is “FastTrack”, then
@@ -71,6 +72,24 @@ public class Lab3 {
 // Apelati metoda in main() pentru a verifica daca functioneaza.
 
         System.out.println(logic.bigNumber(3,9,15));
+
+        //Creati o metoda de tip String, care sa primeasca un parametru de tip String, si un parametru de tip int
+        // Daca textul primit ca si parametru este egal cu “FastTrackIT”, si numarul primit ca si parametru este mai mic sau egal cu 3, returnati textul si numarul, in ordinea asta.
+        // Daca textul nu este “FastTrackIT” si numarul este mai mare sau egal cu 4, returnati numarul si textul, in ordinea asta.
+        // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+        System.out.println(logic.verifyTextAndNumberInterval(5,"Cucu"));
+
+
+        System.out.println(logic.verifyInInterval(10));
+
+
+
+        System.out.println(logic.compareStrings("Cucu"));
+
+
+
+
 
         Math myMath = new Math();
 
